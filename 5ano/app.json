@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Programe-se",
+    "slug": "Programe-se",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/foguete.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/foguete.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/foguete.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.alvarohenrique.Programese"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "328d7812-8259-4109-bc53-51222bd439ba"
+      }
+    }
+  }
+}
